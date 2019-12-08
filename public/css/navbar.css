@@ -1,0 +1,22 @@
+.cover{
+	position: relative;
+	width: 100%;
+	/*height: 400px;*/
+}
+
+.profile{
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	text-align: center;
+}
+
+.navbar {
+	opacity: .7;
+}
+
+
+
+.navbar-nav .nav-item{
+	margin-left: 20px;
+}
