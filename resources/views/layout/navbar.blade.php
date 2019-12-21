@@ -37,26 +37,29 @@
 
 <!-- for navbar -->
 
-     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     <nav class="navbar navbar-expand-md navbar-light">
         <!-- Brand -->
-        <a class="navbar-brand" href="{{asset('/')}}" style="margin-left: 20px;">Profile</a>
+        <a class="navbar-brand pull-left shake" href="{{asset('/')}}" style="margin-left: 30px;" id="logo"><img src="{{asset('images/logo1.png')}}" width="100" height="70"></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa fa-bars"></i>
         </button>
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Blog</a>
+              <a class="navbar-brand" href="{{asset('/')}}" id="a_profile">Profile</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">About</a>
+              <a class="navbar-brand" href="#" id = "a_blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="{{asset('contact')}}">Contact</a>
+              <a class="navbar-brand" href="{{asset('about')}}" id="a_about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="{{asset('contact')}}" id = "a_contact">Contact</a>
             </li>
           </ul>
         </div>

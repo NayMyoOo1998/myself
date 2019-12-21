@@ -1,6 +1,7 @@
 .cover{
 	position: relative;
 	width: 100%;
+	top: 0;
 	/*height: 400px;*/
 }
 
@@ -13,10 +14,96 @@
 
 .navbar {
 	opacity: .7;
+	border-collapse: collapse;
+	background: linear-gradient(to right,#a517ba,#004782);
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px;
+}
+
+.navbar-toggler{
+	outline: none !important;
 }
 
 
 
 .navbar-nav .nav-item{
-	margin-left: 20px;
+	margin-left: 30px;
+}
+
+#logo{
+	color: #ffff;
+	transition: all 1s ease-in-out;
+	
+}
+#logo:hover{
+	font-size: 2.3em;
+	color: red;
+}
+
+
+
+
+#a_profile{
+	font-size: 1.3em;
+	color: #ffff;
+	width:100px;
+	font-family: sans-serif;
+	font-weight: 600;
+	height: 50px;
+	line-height: 35px;
+	transition: all .1s ease-in-out;
+}
+#a_profile:hover{
+	font-size: 1.4em;
+	text-shadow: 1px black;
+	color:red;
+}
+
+#a_blog{
+	font-size: 1.3em;
+	color: #ffff;
+	font-family: sans-serif;
+	font-weight: bold;
+	width:100px;
+	height: 50px;
+	line-height: 35px;
+	transition: all .1s ease-in-out;
+}
+#a_blog:hover{
+	font-size: 1.4em;
+	text-shadow: 1px black;
+	color:red;
+}
+#a_about{
+	font-size: 1.3em;
+	color: #ffff;
+	width:100px;
+	font-family: sans-serif;
+	font-weight: bold;
+	height: 50px;
+	line-height: 35px;
+	transition: all .1s ease-in-out;
+}
+#a_about:hover{
+	font-size: 1.4em;
+	text-shadow: 1px black;
+	color:red;
+}
+#a_contact{
+	font-size: 1.3em;
+	color: #ffff;
+	font-family: sans-serif;
+	font-weight: bold;
+	width:100px;
+	height: 50px;
+	line-height: 35px;
+	transition: all .1s ease-in-out;
+}
+#a_contact:hover{
+	font-size: 1.4em;
+	text-shadow: 1px black;
+	color:red;
 }
